@@ -16,7 +16,7 @@ jobs:
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
-          username: fastuser
+          username: root
           server: 46.36.216.127
           port: 22
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
